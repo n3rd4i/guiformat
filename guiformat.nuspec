@@ -18,7 +18,7 @@
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>guiformat (Install)</title>
+    <title>Guiformat</title>
     <authors>Ridgecrop Consultants Ltd</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm</projectUrl>
@@ -32,7 +32,7 @@
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>guiformat format FAT32</tags>
-    <summary>I finally got round to doing a Windows GUI version of fat32format.</summary>
+    <summary>Windows GUI version of fat32format.</summary>
     <description>
 
     Windows will ask you if you want to run the file. Click yes. It will ask you if you want to allow it to have (Admin) access to your computer. Click yes. The program will start. Select a drive to format. Click Start. Your drive should be formatted in a few seconds
