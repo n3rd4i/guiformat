@@ -1,12 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://www.ridgecrop.demon.co.uk/guiformat.exe'
+$url        = 'http://ridgecrop.co.uk/guiformat-x64.Exe'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileFullPath  = "$(Join-Path $toolsDir 'guiformat.exe')"
   url           = $url
   softwareName  = 'guiformat*'
-  checksum      = '647FB4F5108AF632C3D52FEC34934922C50C70585697504E92FB80B3B7D05EE3'
+  checksum      = '13D045F582D559C830F2E30F835AC56803844825FE6152D2D5F78367B19EDB9A'
   checksumType  = 'sha256'
 }
 Get-ChocolateyWebFile @packageArgs
