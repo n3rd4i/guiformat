@@ -11,7 +11,7 @@
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
     <version>1.0.3</version>
-    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <packageSourceUrl>https://github.com/n3rd4i/guiformat</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <!--<owners>__REPLACE_YOUR_NAME__</owners>-->
     <!-- ============================== -->
@@ -21,7 +21,7 @@
     <title>Guiformat</title>
     <authors>Ridgecrop Consultants Ltd</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm</projectUrl>
+    <projectUrl>http://www.ridgecrop.co.uk/index.htm?guiformat.htm</projectUrl>
     <iconUrl>https://cdn.statically.io/img/www.flaticon.com/free-icon/sd-card_716420</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
@@ -38,7 +38,7 @@
     Windows will ask you if you want to run the file. Click yes. It will ask you if you want to allow it to have (Admin) access to your computer. Click yes. The program will start. Select a drive to format. Click Start. Your drive should be formatted in a few seconds
 
      </description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
+    <releaseNotes>http://www.ridgecrop.co.uk/index.htm?guiformat.htm</releaseNotes>
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
